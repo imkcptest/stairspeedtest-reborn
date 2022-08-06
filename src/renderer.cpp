@@ -446,8 +446,8 @@ std::string exportRender(std::string resultpath, std::vector<nodeInfo> &nodes, b
     else
     {
         if(export_as_new_style)
-            traffic += "测速用时:: " + secondToString(test_duration) + ". ";
-        traffic += "可用节点 : [" + std::to_string(onlines) + "/" + std::to_string(node_count) + "]";
+            traffic += "测速用时: " + secondToString(test_duration) + ". ";
+        traffic += "可用节点: [" + std::to_string(onlines) + "/" + std::to_string(node_count) + "]";
     }
 
     final_width = total_width;
