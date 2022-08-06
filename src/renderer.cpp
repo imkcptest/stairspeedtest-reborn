@@ -433,7 +433,7 @@ std::string exportRender(std::string resultpath, std::vector<nodeInfo> &nodes, b
         total_width += nattype_width;
 
     //generating information
-    std::string gentime = "图片生成时间" + getTime(3) + "by imkcp.在线测速";
+    std::string gentime = "图片生成时间: " + getTime(3) + " by imkcp.在线测速";
     std::string traffic = "消耗流量: " + speedCalc((double)total_traffic) + ". ";
     std::string about = "By Stair Speedtest Reborn " VERSION ".";
     std::string title = "  测速by imkcp  ";
